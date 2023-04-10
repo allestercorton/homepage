@@ -44,6 +44,7 @@ nav {
     width: 2.5rem;
     height: 2.5rem;
     background: var(--logo);
+    cursor: pointer;
 }
 
 .logo-text {
@@ -67,4 +68,99 @@ nav {
 
 input {
     outline: none;
+}
+
+header {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-evenly;
+    top: 6.5rem;
+    gap: 1rem;
+    color: white;
+}
+
+header div {
+    border: 1px solid #3d3c3c;
+    border-radius: 0.6rem;
+    width: 100%;
+}
+
+.content {
+    flex: 3;
+    padding: 3rem 2rem 2rem;
+}
+
+.public-post {
+    flex: 1.2;
+}
+
+.title-soneo {
+    border: none;
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.title-text {
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-style: italic;
+    padding-left: 12rem;
+}
+
+.dlc-btn {
+    border: none;
+}
+
+.dl-btn {
+    padding: 0.4rem 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-radius: 0.6rem;
+    margin-top: 2rem;
+    color: white;
+    background: rgb(27, 27, 170);
+}
+
+.img {
+    height: 12.8rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    border: none;
+    overflow: hidden;
+}
+
+.pic {
+    border-radius: 0.2rem;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.public-post {
+    padding: 1rem;
+}
+
+.public-post-title {
+    border: none;
+    font-weight: 600;
+}
+
+.public-post-content {
+    border: none;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+    color: rgb(127, 127, 245);
+    border-radius: 0.1rem;
+    margin: 0.1rem 0;
+    font-size: 1rem;
+    padding: 0.1rem 0;
 }
