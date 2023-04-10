@@ -1,0 +1,70 @@
+:root {
+    --background: #252525;
+    --text: #D2D2D2;
+    --bg-login-btn: #282828;
+    --signup-text: #386884;
+    --white: #ffffff;
+    --logo: #D9381E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background: var(--background);
+    height: 100vh;
+}
+
+nav {
+    box-shadow: 0 6px 2px -2px #1b1b1b;
+    width: 100%;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: var(--logo);
+}
+
+.logo-text {
+    padding-top: 0.5rem;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+}
+
+.login-btn {
+    color: var(--white);
+    font-weight: 600;
+}
+.signup-btn {
+    color: var(--signup-text);
+    font-weight: 600;
+}
+
+input {
+    outline: none;
+}
